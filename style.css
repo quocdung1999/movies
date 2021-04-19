@@ -1,0 +1,60 @@
+   .containers:hover .bottoms{
+       opacity:0.7;
+       visibility:visible;
+     }
+    .containers{
+      position: relative;
+    }
+    body{
+      
+      background-image:linear-gradient(to right,#8E0E00,#1F1C18);
+      font-family: 'Roboto Mono', monospace;
+    }
+    #out,.h3.text-center{
+      text-shadow: rgb(197, 188, 188) 0px 0px 5px, rgb(197, 188, 188) 0px 0px 10px, rgb(197, 188, 188) 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+      color: white;
+      
+    }
+    .bottoms{
+        position:absolute;
+        top:0;bottom:0;left:0;right:0;
+        height:100%;
+        width:100%;
+        opacity:0;
+        background-color:aliceblue;
+        transition:0.3s ease;
+         color:black;
+     }
+     .card-img-top{
+        display:block;
+     }
+     .text-image {
+        color: rgba(46, 7, 54, 0.822);
+        font-size: 0.95rem;
+        position: absolute;
+        top: 92.5%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+     }
+     #k{
+        position:sticky;
+        margin-top:1.5rem;
+     }
+     .spinner-border{
+        margin-left:49%;
+        margin-top:19%;
+     }
+     .form-control.mr-sm-2{
+        width:15rem;
+     }
+     #content{
+        font-size:1.1rem;
+        cursor:pointer;
+     }
+     .card.h-100{
+      background-color:black;
+      cursor:pointer;
+     }
