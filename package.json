@@ -2,9 +2,9 @@
     "name": "movies",
     "version": "1.0.0",
     "description": "",
-    "main": "function.js",
+    "main": "index.js",
     "scripts": {
-        "deploy": "gh-pages -d dist"
+        "deploy": "gh-pages -d web"
     },
     "keywords": [],
     "author": "",
