@@ -1,0 +1,16 @@
+{
+    "name": "movies",
+    "version": "1.0.0",
+    "description": "",
+    "main": "function.js",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "homepage": "https://quocdung1999.github.io/movies",
+    "dependencies": {
+        "gh-pages": "^1.2.0"
+    }
+}
